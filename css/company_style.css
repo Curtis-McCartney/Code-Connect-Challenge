@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+    color: #333;
+}
+
+/* Container */
+.page-container {
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    background-color: #e9f2fa;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Header */
+h1 {
+    font-size: 2.8rem;
+    color: #0b3954;
+    margin-bottom: 40px;
+}
+
+/* Section Styling */
+.section-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-card h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007b83;
+}
+
+/* Placeholder Text */
+.placeholder-text {
+    color: #5a7184;
+    line-height: 1.8;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* Pros & Cons Styling */
+.pros-cons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.pros, .cons {
+    background-color: #eef7f9;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.pros h3 {
+    color: #3c9d9b;
+}
+
+.cons h3 {
+    color: #c94c4c;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.back-button {
+    padding: 12px 25px;
+    background-color: #0b3954;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 30px;
+}
+
+.back-button:hover {
+    background-color: #007b83;
+    transform: translateY(-3px);
+}

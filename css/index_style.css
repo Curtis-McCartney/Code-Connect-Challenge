@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 20px;
+    color: #333;
+}
+
+/* Container */
+.page-container {
+    max-width: 900px;
+    background-color: #e9f2fa;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0b3954;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    color: #5a7184;
+    margin-bottom: 40px;
+}
+
+.company-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.company-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.company-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007b83;
+}
+
+.view-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0b3954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background-color: #007b83;
+}
+
+/* New Section Styling */
+.tips-section {
+    margin-top: 50px;
+    background-color: #dfe7f2;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+}
+
+.tips-section h2 {
+    color: #0b3954;
+}
+
+.tips-section p {
+    color: #5a7184;
+    margin-bottom: 20px;
+}
+
+.tips-button {
+    padding: 12px 25px;
+    background-color: #007b83;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tips-button:hover {
+    background-color: #0b3954;
+    transform: translateY(-3px);
+}
